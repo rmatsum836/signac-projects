@@ -1,0 +1,13 @@
+<ForceField>
+ <!--
+ Parameters from Dang, JCP 1992 doi:10.1063/1.462555
+ -->
+ <AtomTypes>
+  <Type name="dang_li" class="" element="Li" mass="6.94100" def="Li" desc="lithium ion"/>
+  <Type name="dang_f" class="" element="F" mass="18.9984" def="F" desc="fluorine ion"/>
+ </AtomTypes>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <Atom type="dang_li" charge="1.000" sigma="0.1506" epsilon="0.69036"/>
+  <Atom type="dang_f" charge="-1.000" sigma="0.3168" epsilon="0.8368"/>
+ </NonbondedForce>
+</ForceField>

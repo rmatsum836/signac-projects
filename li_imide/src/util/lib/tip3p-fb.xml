@@ -1,0 +1,16 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="OW_tip3pfb" class="OW" element="O" mass="15.99940" def="O" desc="water oxygen"/>
+  <Type name="HW_tip3pfb" class="HW" element="H" mass="1.00800" def="H" desc="water hydrogen"/>
+ </AtomTypes>
+ <HarmonicBondForce>
+     <Bond class1="OW" class2="HW" length="0.101181082494" k="462750.4"/>
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+     <Angle class1="HW" class2="OW" class3="HW" angle="1.8875464" k="836.800"/>
+ </HarmonicAngleForce>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <Atom type="OW_tip3pfb" charge="-0.848448" sigma="0.317796456355" epsilon="0.652143528104"/>
+  <Atom type="HW_tip3pfb" charge="0.424224" sigma="0.0" epsilon="0.0"/>
+ </NonbondedForce>
+</ForceField>
